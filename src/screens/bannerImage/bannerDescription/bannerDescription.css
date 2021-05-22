@@ -1,0 +1,56 @@
+.descriptionTitle {
+  color: #7a3991;
+  font-weight: 800;
+}
+.signUpText {
+  width: 75%;
+}
+.videoBtns {
+  height: 25px;
+  width: 25px;
+  min-width: 25px;
+  min-height: 25px;
+  cursor: pointer;
+}
+.bannerVideoSection {
+  background: #593d7f !important;
+  height: 200px !important;
+  padding-bottom: 10px;
+  width: 400px !important;
+  top: -130px !important;
+  left: 18% !important;
+  position: absolute;
+}
+.videoFile {
+  height: 160px;
+  width: 400px;
+  object-fit: fill;
+}
+.skEventTitle {
+  width: 65%;
+  height: 70px;
+  margin-top: 100px;
+  cursor: pointer;
+}
+.skEventTitleHiddenVideo {
+  width: 70%;
+  height: 70px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .bannerVideoSection {
+    left: 2% !important;
+    position: relative !important;
+    width: 300px !important;
+  }
+  .skEventTitle {
+    margin-top: -100px !important;
+  }
+  .videoFile {
+    height: 160px;
+    width: 300px;
+    object-fit: fill;
+  }
+}
